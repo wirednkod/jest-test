@@ -2,8 +2,9 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "tsc --build",
-    "test": "yarn clean && yarn build && jest dist"
+    "test": "yarn clean && yarn build && node --experimental-vm-modules node_modules/.bin/jest dist"
   },
+  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
