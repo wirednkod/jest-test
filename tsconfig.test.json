@@ -1,6 +1,6 @@
 {
     "compileOnSave": true,
-    "compilerOptions": {
+    "compilerOptions":{
         "target": "ES6",
         "sourceMap": true,
         "declaration": true,
